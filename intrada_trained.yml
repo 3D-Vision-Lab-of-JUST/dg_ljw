@@ -17,4 +17,4 @@ TRAIN:
 TEST:
   MODE: single
   RESTORE_FROM: 
-    - /home/ailab/ailab/LJW/our_code/pretrained/model_112000.pth
+    - /home/ailab/ailab/LJW/our_code/pretrained/dg_s2c_model.pth
