@@ -75,3 +75,6 @@ Last, test DAF+IDA
 ```
 python test_intra.py --cfg ./intrada.yml
 ```
+#Acknowledgements
+This codebase depends on [AdvEnt](https://github.com/valeoai/ADVENT).
+
