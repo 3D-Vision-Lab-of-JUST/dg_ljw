@@ -78,3 +78,5 @@ python test_intra.py --cfg ./intrada.yml
 # Acknowledgements
 This codebase depends on [AdvEnt](https://github.com/valeoai/ADVENT).
 
+# License
+ DG is released under the [Apache-LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0).
