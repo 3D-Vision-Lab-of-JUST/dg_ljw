@@ -1,0 +1,10 @@
+SOURCE: SYNTHIA
+TARGET: Cityscapes
+EXP_NAME: SYNTHIA2Cityscapes_DeepLabv2_DADA_pretrained
+NUM_WORKERS: 4
+USE_DEPTH: True
+TEST:
+  MODE: single
+  RESTORE_FROM:
+    - ../../pretrained_models/depth_model/model_88000.pth
+ # depth_model/model_88000.pth,synthia2cityscapes_dada.pth
