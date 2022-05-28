@@ -76,7 +76,8 @@ Last, test DAF+IDA
 python test_intra.py --cfg ./intrada.yml
 ```
 # Acknowledgements
-This codebase depends on [AdvEnt](https://github.com/valeoai/ADVENT).
+This codebase depends on [AdvEnt](https://github.com/valeoai/ADVENT), [CTRL](https://github.com/susaha/ctrl-uda), and[IntraDA](https://github.com/feipan664/IntraDA)
+Thank you for the work you've done!
 
 # License
  DG is released under the [Apache-LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0).
