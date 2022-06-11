@@ -12,7 +12,7 @@ Semantic segmentation has achieved impressive performance due to deep learning a
 ## Our results
 we conduct experiments on three popular synthetic-to-real UDA evaluation protocols(EPs). EP1: SYNTHIA→Cityscapes (16 classes),EP2: SYNTHIA→Cityscapes (7 classes), EP3:
 SYNTHIA→Mapillary (7 classes). As shown in the following table:
-<img src = "image/ta1.png" width="300px"> <img src = "image/tab2.png" width="300px">
+<img src = "image/tab1.png" width="300px"> <img src = "image/tab2.png" width="300px">
 
 some qualitative examples comparing the proposed method with CTRL and DADA.
 <img src = "image/fig1.png" width="300px"> <img src = "image/fig2.png" width="300px">
