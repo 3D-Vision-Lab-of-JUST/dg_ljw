@@ -3,10 +3,9 @@
 ## Abstract 
 Semantic segmentation has achieved impressive performance due to deep learning and labor-intensive, dense pixel-wise annotation. However, these models trained on source domain usually fail to generalize to a new target domain, especially when performing synthetic-to-real adaptation. Unsupervised Domain Adaptation (UDA) is proposed to address this issue. In this paper, we propose a Depth-aware Adaptation Framework (DAF) and a Intra-domain Adaptation (IDA) strategy in the context of UDA. Firstly, DAF is proposed to adapt domains by capitalizing on the inherent correlations of semantic and depth information. Specifically, a novel depth estimation network based on channel-wise attention mechanism is designed provide additional depth information. For fusing semantic and depth information, depth-aware maps are calculated by cross-task interaction, and then we align the distribution in depth-aware space between source and target domains. Secondly, we introduce IDA strategy to bridge the distribution gap among the subdomains (intra-domain gap). To this end, a depth-aware ranking strategy is presented to separate target domain into sub-source domain and sub-target domain, we perform the second alignment between sub-source domain and sub-target domain. Experiments on SYNTHIA→Cityscapes and SYNTHIA→Mapillary cross-domain tasks show that our method achieves the state-of-the-art results (46.7% mean IOU and 73.3% mean IOU, respectively).
 
-<img src = "image/liuchen1.png" width="300px">
-<img src = "image/liuchen2.png" width="300px">
-## aaaa
-aaaaa
+
+
+
 ## Our results
 we conduct experiments on three popular synthetic-to-real UDA evaluation protocols(EPs). EP1: SYNTHIA→Cityscapes (16 classes),EP2: SYNTHIA→Cityscapes (7 classes), EP3:
 SYNTHIA→Mapillary (7 classes). As shown in the following table:
